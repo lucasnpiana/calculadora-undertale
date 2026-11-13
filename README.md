@@ -22,6 +22,8 @@ A **Calculadora Undertale** é uma aplicação web que realiza operações matem
 
 O projeto foi desenvolvido para colocar em prática os conhecimentos adquiridos durante o curso JavaScript do básico ao avançado (c/ Node.js e projetos). Como quis fazer algo diferente de uma calculadora comum, usei como inspiração visual um jogo de que gosto muito, o **Undertale**: caixa de diálogo preta com borda branca, fonte pixelada e o coração vermelho (SOUL) que aparece na tecla selecionada.
 
+🔗 **Acesse online:** [lucasnpiana.github.io/calculadora-undertale](https://lucasnpiana.github.io/calculadora-undertale/)
+
 ## 🚀 Funcionalidades
 
 - **Operações básicas:** soma, subtração, multiplicação e divisão.
