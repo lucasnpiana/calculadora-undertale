@@ -126,17 +126,6 @@ O código do `script.js` é dividido em seções:
 - **CSS** com variáveis, `grid`, pseudo-elementos (o coração é um `::before`) e design responsivo.
 - Boas práticas de organização de arquivos e comentários no código.
 
-## 🔮 Próximos passos
-
-Ideias de melhorias para as próximas versões:
-
-- [ ] Histórico de cálculos
-- [ ] Modo científico
-- [ ] Coração em pixel art no lugar do caractere ♥
-- [ ] Resultado aparecendo letra por letra, como nos diálogos do jogo
-- [ ] Som de texto a cada tecla
-- [ ] Deploy da aplicação online com GitHub Pages
-
 ## 📚 Contexto acadêmico
 
 Este projeto faz parte da minha jornada de aprendizado em desenvolvimento web, desenvolvido durante um bootcamp no curso **JavaScript do básico ao avançado (c/ Node.js e projetos)**. O objetivo é consolidar o conhecimento por meio da prática, construindo uma aplicação funcional e dando a ela uma identidade própria.
