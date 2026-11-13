@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Calculadora</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="calc" aria-label="Calculadora">
+  <div class="bar">
+    <span>* Calculadora</span><span class="sp"></span>
+  </div>
+  <div class="screen" aria-live="polite">
+    <div class="expr" id="expr"></div>
+    <div class="val" id="val">0</div>
+  </div>
+  <div class="mem">
+    <button data-k="mc" id="mc" disabled>MC</button>
+    <button data-k="mr" id="mr" disabled>MR</button>
+    <button data-k="mp">M+</button>
+    <button data-k="mm">M-</button>
+    <button data-k="ms">MS</button>
+  </div>
+  <div class="keys">
+    <button data-k="pct">%</button>
+    <button data-k="ce">CE</button>
+    <button data-k="c">C</button>
+    <button data-k="bs" aria-label="Apagar">DEL</button>
+    <button data-k="inv">1/x</button>
+    <button data-k="sq">x²</button>
+    <button data-k="rt">√x</button>
+    <button data-k="/">÷</button>
+    <button class="n" data-k="7">7</button>
+    <button class="n" data-k="8">8</button>
+    <button class="n" data-k="9">9</button>
+    <button data-k="*">×</button>
+    <button class="n" data-k="4">4</button>
+    <button class="n" data-k="5">5</button>
+    <button class="n" data-k="6">6</button>
+    <button data-k="-">-</button>
+    <button class="n" data-k="1">1</button>
+    <button class="n" data-k="2">2</button>
+    <button class="n" data-k="3">3</button>
+    <button data-k="+">+</button>
+    <button class="n" data-k="neg">±</button>
+    <button class="n" data-k="0">0</button>
+    <button class="n" data-k=".">,</button>
+    <button class="eq" data-k="=">=</button>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
